@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	jQuery.ajax( {
-		url: 'http://freegeoip.net/json/',
+		url: 'https://freegeoip.net/json/',
 		type: 'POST',
 		dataType: 'jsonp',
 		success: function(location) {
