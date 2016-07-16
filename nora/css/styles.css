@@ -16,11 +16,13 @@
     font-style: normal
 }
 
+body {background-color:  #595959;}
+
 body,
 html {
     font-family: GothamBook, Lato, sans-serif;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 h1,
@@ -39,23 +41,12 @@ header {
     color: #fff!important;
 }
 
+
 header a {
     color: #fff!important;
     text-decoration: none;
     top: 50%;
 
-}
-
-
-.center-block {float: none !important}
-
-
-.row{margin-bottom: 10px;}
-
-.intro {
-    font-size: 1.25em;
-    margin: 1.5em;
-    line-height: 1.5em;
 }
 
 h1 {
@@ -68,32 +59,56 @@ h1 {
 
 h2 {
     font-family: Gotham-Bold, sans-serif;
-    font-size: 2em;
+    font-size: 1.3em;
     font-weight: 700;
     color: #e31818;
     line-height: 1.5em;
-
-
 }
+
+.center-block {float: none !important}
+
+
+.intro {
+    font-size: 1.5em;
+    padding: 10px;
+    
+}
+
 
 .section-content {
     color: #000;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 
+.section-title{text-transform: uppercase;}
+
+.picture-container{text-align: center;}
 
 .picture {
     border: 1px solid #e31818;
     font-family: Gotham-Bold, sans-serif;
     color: #000;
-    height: 18em;
-    width: 15em;
+    height: 19em;
+    width: 18em;
     display: inline-block;
     padding: 1em;
     margin: 1em;
 
 }
+
+.row .section {
+    background-color: #d9d9d9;
+    margin-top: 20px;
+}
+
+.last-section {
+    background-color: #d9d9d9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-content h2, p {padding: 0px 30px;}
 
 #slide {
     font-family: Gotham-Bold, sans-serif;
@@ -112,11 +127,11 @@ h2 {
 
 
 .espinoza {
-    background: url(../img/espinoza.png) center/15em 18em no-repeat
+    background: url(../img/espinoza.png) center/18em 19em no-repeat
 }
 
 .duran {
-    background: url(../img/duran.png) center/15em 18em no-repeat
+    background: url(../img/duran.png) center/18em 19em no-repeat
 }
 
 
