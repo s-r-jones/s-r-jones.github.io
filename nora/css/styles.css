@@ -89,12 +89,23 @@ h2 {
     border: 1px solid #e31818;
     font-family: Gotham-Bold, sans-serif;
     color: #000;
-    height: 19em;
-    width: 18em;
+    height: 18em;
+    width: 17em;
     display: inline-block;
     padding: 1em;
     margin: 1em;
 
+}
+
+.officer-pic {
+    border: 1px solid #e31818;
+    font-family: Gotham-Bold, sans-serif;
+    color: #000;
+    height: 18em;
+    width: 16em;
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
 }
 
 .row .section {
@@ -110,28 +121,33 @@ h2 {
 
 .section-content h2, p {padding: 0px 30px;}
 
-#slide {
-    font-family: Gotham-Bold, sans-serif;
-    color: #000;
-    height: 18em;
-    width: 15em;
-    padding: 1em;
-    background:#de9a44;
-    display: none;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-
-
-}
-
 
 .espinoza {
-    background: url(../img/espinoza.png) center/18em 19em no-repeat
+    background: url(../img/espinoza.png) center/17em 18em no-repeat
 }
 
 .duran {
-    background: url(../img/duran.png) center/18em 19em no-repeat
+    background: url(../img/duran.png) center/17em 18em no-repeat
+}
+
+.children {
+    background: url(../img/children.jpg) center/17em 18em no-repeat
+}
+
+.woman {
+    background: url(../img/woman.jpg) center/18em 18em no-repeat
+}
+
+.family {
+    background: url(../img/family.jpg) center/17em 18em no-repeat
+}
+
+.officer {
+    background: url(../img/officer.jpg); 
+    background-repeat: no-repeat;
+    background-size: 16em 19em;
+    background-position: 20% 30%;
+    
 }
 
 
@@ -155,86 +171,6 @@ footer div.paidfor {
     border: 1px solid #fff
 }
 
-.slideout-menu {
-        position: fixed;
-        top: 20%;
-        left: -250px;
-        width: 250px;
-        height: 100%;
-        z-index: 100;
-    }
-.slideout-menu h3 {
-    position: relative;
-    padding: 12px 10px;
-    color: #e31818;
-    font-size: 1.2em;
-    font-weight: 400;
-    border-bottom: 4px solid #222;
-}
-
-.slideout-menu .slideout-menu-toggle {
-    position: absolute;
-    top: 12px;
-    right: 10px;
-    display: inline-block;
-    padding: 6px 9px 5px;
-    font-weight: bold;
-    line-height: 1;
-    background: #222;
-    color: #999;
-    text-decoration: none;
-    vertical-align: top;
-}
-.slideout-menu-toggle:hover {
-    color: #fff;
-}
-.slideout-menu ul {
-    list-style: none;
-    font-weight: 300;
-}
-    
-.slideout-menu ul li {
-    border-bottom: 1px solid #151515;
-}
-.slideout-menu ul li a {
-    position: relative;
-    display: block;
-    padding: 10px;
-    color: #999;
-    text-decoration: none;
-}
-
-.slideout-menu ul li a i {
-    position: absolute;
-    top: 15px;
-    right: 10px;
-    opacity: .5;
-}
-
-.header {
-    padding: 15px;
-    background: #000;
-}
-.header .slideout-menu-toggle {
-    font-size: 1.2em;
-    color: #999;
-    text-decoration: none;
-}
-.header .slideout-menu-toggle:hover {
-    color: #fff;
-}
-.header .slideout-menu-toggle i {
-    vertical-align: top;
-    margin: 5px 3px 0 0;
-}
-
-#theBox_3, #theBox_2{
-    display: none; 
-    border: 1px solid #000;
-    width: 200px;
-    height: 100px;
-    background-color: #ddf;
-}
 
 
 
