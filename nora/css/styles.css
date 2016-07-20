@@ -152,15 +152,23 @@ h3 {
 
 
 .espinoza {
-    background: url(../img/espinoza.png) center/17em 18em no-repeat;
+     background: 
+     linear-gradient(
+      rgba(255, 0, 0, 0.60), 
+      rgba(255, 0, 0, 0.30)
+    ),
+    url(../img/espinoza.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;;
 
 }
 
 .espinoza1 {
     background: 
     linear-gradient(
-      rgba(255, 0, 0, 0.60), 
-      rgba(255, 0, 0, 0.25)
+      rgba(255, 255, 255, 0.60), 
+      rgba(255, 255, 255, 0.60)
     ),
 
     url(../img/nora1.jpg);
@@ -245,6 +253,37 @@ footer div {
 
 footer div.paidfor {
     border: 1px solid #fff
+}
+
+#cross { 
+  margin-top: 20px;
+  background: red; 
+  height: 200px; 
+  position: relative; 
+  left: 110px;
+  width: 10px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg); 
+} 
+#cross:after { 
+  background: red; 
+  content: ""; 
+  height: 10px; 
+  left: -100px; 
+  position: absolute; 
+  top: 100px; 
+  width: 200px; 
+}
+
+.x {
+    background: url(../img/redx2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0; 
+    height: 13em;
+    width: 12em;
+    margin: 20px auto;
 }
 
 
