@@ -64,7 +64,7 @@ header a {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: 0 0;
-    height: 18em;
+    height: 19em;
     width: 100%;
     margin: 0 auto;
 }
@@ -80,7 +80,7 @@ h1 {
 h2 {
     font-family: Gotham-Bold, sans-serif;
     font-size: 1.3em;
-    font-weight: 700;
+    font-weight: 800;
     color: #e31818;
     line-height: 1.5em;
 }
@@ -205,14 +205,17 @@ h3 {
 }
 
 .family {
-    background: url(../img/family.jpg) center/17em 18em no-repeat
+    background: url(../img/family.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -50px 0;
 }
 
 .officer {
     background: url(../img/officer.jpg); 
-    ackground-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: 10px 0;
+    background-position: 0 0;
     
 }
 
