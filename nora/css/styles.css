@@ -49,7 +49,7 @@ header {
 .container {
     background: url(../img/container-image.png);
     background-repeat: repeat;
-    padding: 0;
+    padding: 0 0;
 }
 
 header a {
@@ -229,7 +229,7 @@ footer {
 }
 
 footer div {
-    width: 70%;
+    width: 30%;
     margin: auto;
     padding: 10px;
     color: #fff;
