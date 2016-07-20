@@ -152,11 +152,18 @@ h3 {
 
 
 .espinoza {
-    background: url(../img/espinoza.png) center/17em 18em no-repeat
+    background: url(../img/espinoza.png) center/17em 18em no-repeat;
+
 }
 
 .espinoza1 {
-    background: url(../img/nora1.jpg);
+    background: 
+    linear-gradient(
+      rgba(255, 0, 0, 0.55), 
+      rgba(255, 0, 0, 0.25)
+    ),
+
+    url(../img/nora1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
