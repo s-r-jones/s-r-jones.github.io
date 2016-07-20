@@ -16,14 +16,9 @@
     font-style: normal
 }
 
-body {background: rgba(19,19,19,1);
-background: -moz-linear-gradient(-45deg, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 2%, rgba(44,44,44,1) 13%, rgba(43,43,43,1) 22%, rgba(43,43,43,1) 24%, rgba(44,44,44,1) 36%, rgba(71,71,71,1) 64%, rgba(74,74,74,1) 77%, rgba(76,76,76,1) 86%, rgba(89,89,89,1) 100%);
-background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(19,19,19,1)), color-stop(2%, rgba(28,28,28,1)), color-stop(13%, rgba(44,44,44,1)), color-stop(22%, rgba(43,43,43,1)), color-stop(24%, rgba(43,43,43,1)), color-stop(36%, rgba(44,44,44,1)), color-stop(64%, rgba(71,71,71,1)), color-stop(77%, rgba(74,74,74,1)), color-stop(86%, rgba(76,76,76,1)), color-stop(100%, rgba(89,89,89,1)));
-background: -webkit-linear-gradient(-45deg, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 2%, rgba(44,44,44,1) 13%, rgba(43,43,43,1) 22%, rgba(43,43,43,1) 24%, rgba(44,44,44,1) 36%, rgba(71,71,71,1) 64%, rgba(74,74,74,1) 77%, rgba(76,76,76,1) 86%, rgba(89,89,89,1) 100%);
-background: -o-linear-gradient(-45deg, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 2%, rgba(44,44,44,1) 13%, rgba(43,43,43,1) 22%, rgba(43,43,43,1) 24%, rgba(44,44,44,1) 36%, rgba(71,71,71,1) 64%, rgba(74,74,74,1) 77%, rgba(76,76,76,1) 86%, rgba(89,89,89,1) 100%);
-background: -ms-linear-gradient(-45deg, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 2%, rgba(44,44,44,1) 13%, rgba(43,43,43,1) 22%, rgba(43,43,43,1) 24%, rgba(44,44,44,1) 36%, rgba(71,71,71,1) 64%, rgba(74,74,74,1) 77%, rgba(76,76,76,1) 86%, rgba(89,89,89,1) 100%);
-background: linear-gradient(135deg, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 2%, rgba(44,44,44,1) 13%, rgba(43,43,43,1) 22%, rgba(43,43,43,1) 24%, rgba(44,44,44,1) 36%, rgba(71,71,71,1) 64%, rgba(74,74,74,1) 77%, rgba(76,76,76,1) 86%, rgba(89,89,89,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#595959', GradientType=1 );;
+body {
+background: url(../img/body-image.png);
+background-repeat: repeat;
 }
 
 body,
@@ -50,6 +45,13 @@ header {
 }
 
 
+
+.container {
+    background: url(../img/container-image.png);
+    background-repeat: repeat;
+    padding: 0;
+}
+
 header a {
     color: #fff!important;
     text-decoration: none;
@@ -61,9 +63,9 @@ header a {
     background: url(../img/header-background.jpg); 
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position: center;
-    height: 21em;
-    width: 95%;
+    background-position: 0 0;
+    height: 18em;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -82,6 +84,15 @@ h2 {
     color: #e31818;
     line-height: 1.5em;
 }
+
+h3 {
+    font-family: Gotham-Bold, sans-serif;
+    font-size: 1.1em;
+    font-weight: 520;
+    line-height: 1.1em;
+}
+
+
 
 .center-block {float: none !important}
 
@@ -104,7 +115,7 @@ h2 {
 .picture-container{text-align: center;}
 
 .picture {
-    border: 1px solid #e31818;
+    border: 2px solid #e31818;
     font-family: Gotham-Bold, sans-serif;
     color: #000;
     height: 18em;
@@ -145,31 +156,52 @@ h2 {
 }
 
 .espinoza1 {
-    background: url(../img/nora1.jpg) center/17em 18em no-repeat
+    background: url(../img/nora1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
 }
 
 .espinoza2 {
-    background: url(../img/nora2.png) center/17em 18em no-repeat
+    background: url(../img/nora2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
 }
 
 .espinoza3 {
-    background: url(../img/nora3.jpg) center/17em 18em no-repeat
+    background: url(../img/nora3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
 }
 
 .espinoza4 {
-    background: url(../img/nora5.jpg) center/17em 18em no-repeat
+    background: url(../img/nora5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
 }
 
 .duran {
-    background: url(../img/duran.png) center/17em 18em no-repeat
+    background: url(../img/duran.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
 }
 
 .children {
-    background: url(../img/children.jpg) center/17em 18em no-repeat
+    background: url(../img/children.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -120px 0;
 }
 
 .woman {
-    background: url(../img/woman.jpg) center/18em 18em no-repeat
+    background: url(../img/woman.jpg);
+    ackground-repeat: no-repeat;
+    background-size: cover;
+    background-position: -150px 0; 
 }
 
 .family {
@@ -178,9 +210,9 @@ h2 {
 
 .officer {
     background: url(../img/officer.jpg); 
-    background-repeat: no-repeat;
-    background-size: 16em 19em;
-    background-position: 20% 30%;
+    ackground-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10px 0;
     
 }
 
@@ -189,7 +221,7 @@ footer {
     padding: 20px;
     text-align: center;
   
-    background-color: #923333;
+    background-color: #a12424;
     color: #fff
 }
 
