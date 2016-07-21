@@ -175,17 +175,13 @@ h3 {
     font-size: 1.2em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .section-content h2,p{
     padding: 0px 5px;
     }
 }
 
-@media (max-width: 400px) {
-    .section-content  {
-        padding: 0px 5px;
-    }
-}
+
 
 .espinoza {
      background: 
