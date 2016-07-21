@@ -185,7 +185,7 @@ h3 {
 .section-content h2, p {padding: 0px 30px;}
 
 @media (max-width: 768px) {
-    .section-content h2, p {
+    .section-content p {
         {padding: 0px 5px;}
     }
 
