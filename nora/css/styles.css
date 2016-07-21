@@ -181,12 +181,11 @@ h3 {
     }
 }
 
-@media (max-width: 480px) {
-    .section-content h2,p{
-    padding: 0px 5px;
+@media (max-width: 374px) {
+    .section-content h2,p {
+        padding: 0px 5px;
     }
 }
-
 
 .espinoza {
      background: 
