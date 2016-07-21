@@ -275,6 +275,13 @@ footer div {
     font-size: .75em
 }
 
+@media (max-width: 768px) {
+    footer div {
+        width: 70%;
+    }
+
+}
+
 footer div.paidfor {
     border: 1px solid #fff
 }
