@@ -69,6 +69,8 @@ header a {
     margin: 0 auto;
 }
 
+
+
 h1 {
     font-family: Gotham-Bold, sans-serif;
     font-size: 3em;
@@ -85,12 +87,6 @@ h2 {
     line-height: 1.5em;
 }
 
-@media (max-width: 768px) {
-    h2 {
-        font-size: 1.1em;
-    }
-
-}
 
 h3 {
     font-family: Gotham-Bold, sans-serif;
@@ -179,6 +175,12 @@ h3 {
 
 .section-content h2, p {padding: 0px 30px;}
 
+@media (max-width: 768px) {
+    .section-content{
+       padding: 0px 15px;
+    }
+
+}
 
 .espinoza {
      background: 
@@ -259,7 +261,7 @@ h3 {
 
 @media (max-width: 768px) {
     .woman {
-        background-position: -60px 0;
+        background-position: -50px 0;
     }
 
 }
@@ -268,7 +270,14 @@ h3 {
     background: url(../img/family.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -50px 0;
+    background-position: 0 0;
+}
+
+@media (max-width: 768px) {
+    .family {
+        background-position: -50px 0;
+    }
+
 }
 
 .officer {
