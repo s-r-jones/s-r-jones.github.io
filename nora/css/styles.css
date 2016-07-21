@@ -126,6 +126,14 @@ h3 {
 
 }
 
+@media (max-width: 768px) {
+    .picture {
+        height: 10em;
+        width: 10em;
+    }
+
+}
+
 .officer-pic {
     border: 1px solid #e31818;
     font-family: Gotham-Bold, sans-serif;
@@ -212,11 +220,27 @@ h3 {
     background-position: -120px 0;
 }
 
+@media (max-width: 768px) {
+    .children {
+        background-position: -30px 0;
+    }
+
+}
+
+
+
 .woman {
     background: url(../img/woman.jpg);
-    ackground-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: -150px 0; 
+}
+
+@media (max-width: 768px) {
+    .woman {
+        background-position: -60px 0;
+    }
+
 }
 
 .family {
