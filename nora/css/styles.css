@@ -181,8 +181,8 @@ h3 {
     }
 }
 
-@media (max-width: 374px) {
-    .section-content h2,p {
+@media (max-width: 400px) {
+    .section-content  {
         padding: 0px 5px;
     }
 }
