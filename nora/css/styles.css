@@ -141,8 +141,8 @@ h3 {
 
 @media (max-width: 768px) {
     .picture {
-        height: 12em;
-        width: 10em;
+        height: 10em;
+        width: 9em;
         margin: 0;
     }
 
