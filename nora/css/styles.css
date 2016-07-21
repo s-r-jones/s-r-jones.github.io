@@ -127,15 +127,6 @@ h3 {
     font-size: 1.2em;
 }
 
-@media (max-width: 768px) {
-    .section-content {
-        font-size: 1em;
-        padding: 0 5px;
-    }
-
-}
-
-
 .section-title{text-transform: uppercase;}
 
 .picture-container{text-align: center;}
