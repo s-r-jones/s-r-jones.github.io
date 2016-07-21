@@ -141,11 +141,10 @@ h3 {
 
 @media (max-width: 768px) {
     .picture {
-        height: 10em;
-        width: 8em;
+        height: 10.5em;
+        width: 8.5em;
         
     }
-
 }
 
 .officer-pic {
