@@ -176,13 +176,13 @@ h3 {
     font-size: 1.2em;
 }
 
-@media (max-width: 768px) {
+@media handheld, screen and (max-width: 768px) {
     .section-content h2,p{
     padding: 0px 5px;
     }
 }
 
-@media (max-width: 768px) {
+@media handheld, screen and (max-width: 768px) {
     .section-content .picture-container{
     margin: 0px 5px;
     }
