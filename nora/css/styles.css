@@ -85,6 +85,13 @@ h2 {
     line-height: 1.5em;
 }
 
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.1em;
+    }
+
+}
+
 h3 {
     font-family: Gotham-Bold, sans-serif;
     font-size: 1.1em;
@@ -103,10 +110,24 @@ h3 {
     
 }
 
+@media (max-width: 768px) {
+    .intro {
+        font-size: 1.2em;
+    }
+
+}
+
 
 .section-content {
     color: #000;
     font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    .section-content {
+        font-size: 1em;
+    }
+
 }
 
 
