@@ -122,10 +122,6 @@ h3 {
 }
 
 
-.section-content {
-    color: #000;
-    font-size: 1.2em;
-}
 
 .section-title{text-transform: uppercase;}
 
@@ -145,8 +141,9 @@ h3 {
 
 @media (max-width: 768px) {
     .picture {
-        height: 10em;
+        height: 12em;
         width: 10em;
+        margin: 0;
     }
 
 }
@@ -173,7 +170,23 @@ h3 {
     margin-bottom: 20px;
 }
 
-.section-content h2, p {padding: 0px 30px;}
+.section-content {
+    padding: 0px 30px;
+    color: #000;
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    .section-content h2,p{
+    padding: 0px 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-content .picture-container{
+    margin: 0px 5px;
+    }
+}
 
 
 .espinoza {
@@ -278,7 +291,7 @@ h3 {
     background: url(../img/officer.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 30px 0;
+    background-position: 0 0;
     
 }
 
@@ -310,11 +323,7 @@ footer div.paidfor {
     border: 1px solid #fff
 }
 
-@media (max-width: 768px) {
-    .section-content p {
-        {padding: 0px 5px;}
-    }
-}
+
 
 #cross { 
   margin-top: 20px;
